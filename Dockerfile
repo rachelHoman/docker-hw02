@@ -17,7 +17,7 @@ RUN pip3 install --upgrade pip==20.3.4 && \
 
 COPY . /app
 
-EXPOSE 8080
+EXPOSE 1363
 
 ENTRYPOINT [ "python3" ]
 
