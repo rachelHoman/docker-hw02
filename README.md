@@ -20,6 +20,12 @@ Finally, there's a handful of errors that you'll get when you build the project.
 
 It is very common for realworld tutorials to not work exactly as written. I've selected this tutorial specifically because it has these problems, and they are relatively minor. It will give you good practice for when you encounter harder problems later.
 
+Steps I followed:
+
+https://web.archive.org/web/20220806133324/runnable.com/docker/python/dockerize-your-flask-application
+
+https://web.archive.org/web/20220806133324/http://runnable.com/docker/binding-docker-ports
+
 To access the server: ssh <USERNAME>@lambda.compute.cmc.edu -p 5055 -L localhost:<$UID>:10.253.1.15:<$UID>
 
 cd docker-hw02/
