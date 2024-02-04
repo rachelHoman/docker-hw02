@@ -21,9 +21,15 @@ Finally, there's a handful of errors that you'll get when you build the project.
 It is very common for realworld tutorials to not work exactly as written. I've selected this tutorial specifically because it has these problems, and they are relatively minor. It will give you good practice for when you encounter harder problems later.
 
 To access the server: ssh <USERNAME>@lambda.compute.cmc.edu -p 5055 -L localhost:<$UID>:10.253.1.15:<$UID>
+
 cd docker-hw02/
+
 docker build -t flask-tutorial .
+
 docker run -d -p <$UID>:<$UID> flask-tutorial
+
 docker images
+
 docker ps # add -a if want to see closed containers (good for debugging)
+
 docker log <CONTAINER_ID> (good for debugging and finding build errors)
